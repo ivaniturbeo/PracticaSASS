@@ -1,0 +1,20 @@
+@import 'variables';
+@import 'mixins';
+
+html, body{
+
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    background-color: #ddd;
+}
+.grid > div{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin:8px;
+    text-align: $alignment;
+    color:white;
+    font-size: 13px;
+    border-radius:3px;
+}
+@import 'secondary';
